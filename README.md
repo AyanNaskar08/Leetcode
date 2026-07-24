@@ -1,107 +1,48 @@
-# LeetCode
+# 🧩 LeetCode Solutions
 
-My solutions to [LeetCode](https://leetcode.com/) problems, written in **C++**.
+A collection of my solutions to [LeetCode](https://leetcode.com/) problems. This repo tracks my progress as I practice data structures, algorithms, and problem-solving skills.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/LeetCode-AyanNaskar08-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode Profile"/>
-  <img src="https://img.shields.io/badge/Solved-1%2F3999-brightgreen" alt="Total Solved"/>
-  <img src="https://img.shields.io/badge/Easy-1%2F955-5CB85C" alt="Easy Solved"/>
-  <img src="https://img.shields.io/badge/Medium-0%2F2089-FFB700" alt="Medium Solved"/>
-  <img src="https://img.shields.io/badge/Hard-0%2F955-D9534F" alt="Hard Solved"/>
-</p>
+## 📌 About
 
-## About
+This repository contains my personal solutions to LeetCode problems, written in **C++**. Each solution includes:
 
-Hi, I'm Ayan Naskar — a Computer Science student with a passion for Python, Data Structures, and Algorithms. This repository documents my LeetCode journey, where I solve coding problems to strengthen my problem-solving skills using **C++**.
+- Problem description / link
+- Approach and intuition
+- Time and space complexity analysis
+- Clean, commented code
 
-## Structure
+## 🚀 How to Run
 
-Solutions are grouped by topic/category, with each problem in its own folder inside the relevant category:
-
-```
-leetcode/
-├── Arrays/
-│   └── 0001-two-sum/
-│       └── solution.cpp
-├── Strings/
-│   └── ...
-├── Linked-List/
-│   └── ...
-├── Dynamic-Programming/
-│   └── ...
-├── Trees/
-│   └── ...
-├── Graphs/
-│   └── ...
-└── ...
-```
-
-Each folder is named as `<problem-number>-<problem-title>` and contains the C++ solution for that problem.
-
-## Progress
-
-### Arrays
-| # | Title | Difficulty | Solution |
-|---|-------|------------|----------|
-| 1 | Two Sum | Easy | [Link](./Arrays/0001-two-sum) |
-
-### Strings
-| # | Title | Difficulty | Solution |
-|---|-------|------------|----------|
-| - | - | - | - |
-
-### Linked List
-| # | Title | Difficulty | Solution |
-|---|-------|------------|----------|
-| - | - | - | - |
-
-### Dynamic Programming
-| # | Title | Difficulty | Solution |
-|---|-------|------------|----------|
-| - | - | - | - |
-
-### Trees & Graphs
-| # | Title | Difficulty | Solution |
-|---|-------|------------|----------|
-| - | - | - | - |
-
-*(Tables updated as more problems are solved.)*
-
-## Tech Stack
-
-- **Language:** C++
-- **Platform:** [LeetCode](https://leetcode.com/AyanNaskar08/)
-
-## How to Run
-
-Each solution can be compiled and run individually:
+Clone the repo:
 
 ```bash
-g++ -std=c++17 -o solution solution.cpp
+git clone https://github.com/<your-username>/leetcode.git
+cd leetcode
+```
+
+Navigate to a problem folder, compile, and run the solution file, e.g.:
+
+```bash
+cd array/001-two-sum
+g++ -std=c++17 -O2 -o solution solution.cpp
 ./solution
 ```
 
-## Goals
+## 🛠️ Tools & Conventions
 
-- Build consistency in solving DSA problems
-- Strengthen problem-solving skills in C++
-- Track progress over time
+- **Language:** C++ (C++17)
+- **Naming convention:** `NNN-problem-title/` (zero-padded problem number + kebab-case title)
+- **Compiler:** GCC / Clang, compiled with `-std=c++17 -O2`
+- **Testing:** Solutions are validated against LeetCode's test cases and, where applicable, include local test scripts using simple `main()` driver code
 
-## Connect with Me
+## 📄 License
 
-<p align="left">
-  <a href="https://leetcode.com/AyanNaskar08/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
-  <a href="https://github.com/AyanNaskar08" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/ayan-naskar-166468323" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
+This project is licensed under the [MIT License](LICENSE).
 
-📍 India | 🎓 Gandhi Engineering College
+## 🤝 Contributing
+
+This is a personal practice repository, but suggestions and improvements are welcome — feel free to open an issue or pull request!
 
 ---
+
 ⭐ If you find this helpful, consider giving the repo a star!
