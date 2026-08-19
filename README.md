@@ -23,7 +23,7 @@ cd leetcode
 Navigate to a problem folder, compile, and run the solution file, e.g.:
 
 ```bash
-cd array/001-two-sum
+cd array/136-single number
 g++ -std=c++17 -O2 -o solution solution.cpp
 ./solution
 ```
